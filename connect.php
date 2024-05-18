@@ -7,6 +7,4 @@
         die("Error : " . mysqli_connect_error());
     }
 
-    echo "Database connection established...";
-
 ?>

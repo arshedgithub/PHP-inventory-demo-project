@@ -2,19 +2,30 @@
     <head>
         <title>Inventory System</title>
         <style>
-           form {
-            border : 1px solid black;
-            border-radius : 10px;
-            padding: 20px;
-            /* margin-top: 10px; */
-           } 
+            h3 {
+                background-color: lightgray;
+                padding: 10px;
+                margin-top: 0;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 20px;
+                padding: 10px;
+            }
+            form {
+                border : 1px solid black;
+                border-radius : 10px;
+                padding: 20px;
+            } 
         </style>
     </head>
     <body>
         <div class="container">
             <div class="col">
+                <h3>Add New Product</h3>
                 <form action="#">
-                    Name : <input type="text" name="proname" placeholder="Name" required>
+                    Name : <input type="text" name="proname" placeholder="Product Name" required>
                     <br><br>
                     Quantity : <input type="number" name="quantity" required>
                     <br><br>
