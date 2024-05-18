@@ -24,12 +24,12 @@
         <div class="container">
             <div class="col">
                 <h3>Add New Product</h3>
-                <form action="#">
-                    Name : <input type="text" name="proname" placeholder="Product Name" required>
+                <form action="./server.php">
+                    Name : <input type="text" name="proname" placeholder="Product Name">
                     <br><br>
-                    Quantity : <input type="number" name="quantity" required>
+                    Quantity : <input type="number" name="quantity">
                     <br><br>
-                    Price : <input type="number" name="price" required>
+                    Price : <input type="number" name="price">
                     <br><br>
                     <input type="submit" value="Add">
                 </form>
